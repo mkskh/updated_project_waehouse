@@ -140,6 +140,15 @@ while True:
                         elif quantity_1 == quantity_2:
                             bigger_quantity = quantity_1
                             bigger_warehouse = 1
+
+                    elif quantity_1 > 0 and quantity_2 == 0:
+                        bigger_quantity = quantity_1
+                        bigger_warehouse = 1
+
+                    elif quantity_1 == 0 and quantity_2 > 0:
+                        bigger_quantity = quantity_2
+                        bigger_warehouse = 2
+
                     print(f'Amount available: {total_quantity}\nLocation:')
                     '''List every item'''
                     for item in location:

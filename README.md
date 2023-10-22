@@ -7,3 +7,5 @@ Start menu:
 2. Search an item and place an order
 3. Browse by category
 4. Quit
+
+(This is my first project. Main part was finished 10.10.23)
